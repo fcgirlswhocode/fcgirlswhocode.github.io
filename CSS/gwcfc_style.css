@@ -1,0 +1,379 @@
+
+header{
+  background-color: grey;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 50px;
+  border-bottom:  #f08080 5px solid;
+  padding-bottom: 20px;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 50;
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float: left;
+  display: inline;
+
+}
+header #branding{
+  float: left;
+}
+
+header #branding h1{
+  margin: 0;
+}
+
+header nav{
+  float: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+header .highlight, header .current a{
+  color: #43BCBB;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed';
+  text-decoration: none;
+  color: grey;
+  background-color: #FDFEFE;
+}
+div, p {
+  font-family: 'Roboto Condensed';
+}
+#gwcfclogo {
+  width:100px;
+  padding: none;
+
+}
+.headerblock {
+  text-align: right;
+}
+.logoblock {
+  background-color: white;
+  width: 20vw;
+  height: 19vw;
+  margin-left: 10vw;
+  padding-top: 1vw;
+}
+.headerimg {
+  background-image:url("../Images/headerimage.jpg");
+  width: auto;
+  height: 30vw;
+  opacity: 0.8;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.headerblock > img {
+  height: 100%;
+  width: auto;
+  opacity: 0.8;
+  display: inline-block;
+}
+.menu {
+  height: auto;
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+  margin-top: 2.5%;
+  background-color: grey;
+  float: right;
+}
+.menu > ul {
+  list-style-type: none;
+  text-align: right;
+
+}
+.menuitem{
+  display: inline-block;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  padding-right: 3vw;
+}
+.menuitem:hover {
+  color: #f08080;
+}
+.current > .menuitem {
+  color: #43BCBB;
+}
+#logo {
+  height: 30px;
+  width: auto;
+  diplay:inline-block;
+}
+#pagetitle {
+  color: grey;
+  font-size: 3vw;
+  text-align: center;
+}
+#sectiontitle {
+  font-size: 2vw;
+}
+#content {
+  font-size: 1.5vw;
+}
+#footer {
+  width: 100%;
+  height: 7.5vw;
+  background-color: grey;
+  border-top:  #f08080 5px solid;
+  color: white;
+  font-size: 1vw;
+  text-align: center;
+}
+#footersection {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
+/* gwcfc_home */
+#missionstatement {
+  text-align: center;
+  font-size: 3vw;
+  margin: none;
+  color: white;
+  padding-top: 14vw;
+  padding-bottom: 4vw;
+
+}
+.quicklink1, .quicklink2, .quicklink3, .quicklink4 {
+  min-width: 15vw;
+  min-height: 15vw;
+  margin-left: 8%;
+  opacity: 0.8;
+  vertical-align: center;
+  text-align: center;
+  display: inline-block;
+  font-size: 2vw;
+  color: white;
+}
+.quicklink1:hover, .quicklink2:hover, .quicklink3:hover, .quicklink4:hover {
+  background-image: url("http://html-color.org/43BCBB.jpg")
+}
+.quicklink1 > p, .quicklink2 > p, .quicklink3 > p, .quicklink4 > p {
+  padding-top: 4vw;
+  padding-bottom: : 4vw;
+}
+.quicklink1 {
+  background-image: url("http://cdn.cnn.com/cnnnext/dam/assets/120307054822-women-old-fashioned-computer-horizontal-large-gallery.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.quicklink2 {
+  background-image: url("https://blog.zogdigital.com/wp-content/uploads/2015/04/Screen-Shot-2015-04-23-at-2.33.16-PM.png");
+}
+.quicklink3 {
+  background-image: url("http://kidslearntoblog.com/wp-content/uploads/2014/04/girls_who_code-1024x853.jpg");
+}
+.quicklink4 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs4VgezNO8ee2WUUSu_bEGIwuwv-7laxtOnGxuDG4pKwW9oWcLaA");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#missionstatementbackground {
+  background-image:url("../Images/headerimage.jpg");
+  width: auto;
+  height: 30vw;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#basicinfo {
+  font-size: 1.5vw;
+  text-align: center;
+  margin: none;
+  color: white;
+  position: sticky;
+}
+#basicinfobackground  {
+  background-color: #f08080;
+  height: 17vw;
+  margin-left: 8vw;
+  margin-right: 7.5vw;
+  filter: opacity(0.8);
+}
+
+/* gwcfc_about */
+#aboutlogos {
+  height: 8vw;
+}
+#aboutlogos > div {
+  float: center;
+  vertical-align: center;
+  text-align: center;
+}
+#aboutlogo {
+  display: inline-block;
+  color: white;
+  padding-left: 3vw;
+  padding-right: 4.5vw;
+}
+#aboutlogo > img {
+  width: 20vw;
+  height: auto;
+}
+#aboutsection {
+  color: grey;
+}
+/* gwcfc_calendar */
+#liveagenda{
+  background-color: #43BCBB;
+  min-height: 4.5vw;
+  width: 94%;
+  text-align: center;
+  color: white;
+  font-size: 2vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 1vw;
+  margin-right: 3vw;
+  margin-left: 3vw;
+}
+.eventsection {
+  display: inline-block;
+  text-align: center;
+  align: center;
+  float: center;
+  margin-left: 8%;
+  margin-right: 5%;
+  vertical-align: top;
+}
+.eventsection > iframe {
+  padding-left: 2.5vw;
+}
+#facebookevents {
+  align: center;
+}
+.eventfeed {
+  background-color: #f08080;
+}
+#socialmedia {
+  background-color: #f08080;
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+  color: white;
+}
+
+/*gwcfc_resources*/
+.resourcesection {
+  display: inline-block;
+  width: 15vw;
+  height: 15vw;
+  margin: 5vw;
+  color: white;
+  vertical-align: center;
+  text-align: center;
+  background-color: #43BCBB;
+
+}
+.resourcesection > a {
+  color: white;
+
+}
+.resourcesection:hover {
+  background-image: url("../Images/resources_hover_img.jpg")
+}
+/* gwcfc_officers */
+.officerpic {
+  width: 10vw;
+  height: 15vw;
+  background-color: #f08080;
+  display: inline-block;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 3vw;
+  margin-bottom: 1vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.officername {
+  width: 10vw;
+  height: 0.5vw;
+  font-size: 20px;
+  display: inline-block;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+}
+#areetaw {
+  background-image: url("https://scontent.fsnc1-1.fna.fbcdn.net/v/t31.0-8/13584854_10208386377408618_9181675825923958932_o.jpg?oh=1a3f9276d63fe3c9d289cce1eab92b43&oe=5AB099C3")
+}
+#namratai {
+  background-image: url("https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-1/14595816_164653730655089_7477089247133395495_n.jpg?oh=e2540bd8ac63a5f8204080147d2fac3c&oe=5AF4923B")
+}
+#mahakb {
+  background-image: url("https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-1/20638119_332693497188197_2995886539386935145_n.jpg?oh=7c16fdb75fa740a77d0804f197555117&oe=5AEB5994")
+}
+#kellym {
+  background-image: url("https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-1/c146.258.665.665/20708130_1719907178315189_6178131989462206154_n.jpg?oh=6e5340f88013ca002f47ece004da9304&oe=5AFECF54")
+}
+#mandyw {
+  background-image: url("https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/22728971_283878908786753_4617595798312078020_n.jpg?oh=d5a23593b21fdbab3d3c9f9c41df22d9&oe=5AF136D7")
+}
+#annaz {
+  background-image: url("https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/23905192_477072459359928_6519224484032531712_n.jpg?oh=851665cdfe346edfc37ecd6392eb8d1f&oe=5AF76779")
+}
+#krithikat {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUUbuvlgEpt3e-H-1pcrz1vzlnxVITg00JwHlujPrg2iBAstJK")
+}
+#taylork {
+  background-image: url("https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-1/19875123_238513056642925_8852228269393051602_n.jpg?oh=cdacbc64eddc097e90e793bcc8d102d6&oe=5AEE7505")
+}
+
+/*gwcfc_contact*/
+.contactsection {
+  display: inline-block;
+  height: 50%;
+  width: 45%;
+  vertical-align: center;
+
+}
+#emailfield {
+  background-color: #f08080;
+  color: white;
+}
