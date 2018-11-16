@@ -58,9 +58,23 @@ header a:hover{
 
 
 
+#announcement {
+  background-color: #43BCBB;
+  color: white;
+}
 
+#announcementbackground #sectiontitle {
+  font-size: 40px;
+}
 
+#announcementbackground p {
+  font-size: 20px;
+}
 
+#announcementbackground #text,#image {
+  /* float: right; */
+  padding: 2vw;
+}
 
 
 
